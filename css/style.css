@@ -15,7 +15,7 @@ body {
 
 }
 .text-primary  {
-    color: black;
+    color: salmon;
 }
 
 #navbar {
@@ -27,7 +27,7 @@ body {
     flex-wrap: wrap;
 }
 #navbar a {
-    color: black;
+    color: salmon;
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .btn {
     display: inline-block;
-    color: black;
+    color: salmon;
     background: purple;
     padding: 0.5rem 2rem;
     border: none;
