@@ -340,3 +340,259 @@ input[type="radio"] {
 
     
 }
+.text-center {
+    text-align: center; /* Zajistí zarovnání textu na střed */
+}
+
+.items {
+    display: flex;
+    justify-content: center; /* Zarovná prvky na střed horizontálně */
+    gap: 20px; /* Mezera mezi položkami */
+    flex-wrap: wrap; /* Umožní zalomení řádku na menších obrazovkách */
+}
+
+.item {
+    text-align: center; /* Zarovná obsah jednotlivých položek na střed */
+    margin: 10px;
+}
+
+.link {
+    text-decoration: none; /* Odstraní podtržení odkazů */
+    color: inherit; /* Zachová původní barvu textu */
+    font-weight: bold; /* Zvýrazní text */
+}
+
+.link:hover {
+    color: #007bff; /* Barva textu při přejetí myší */
+}
+
+
+#biografie h2 {
+    font-size: 2.5rem;
+    color: purple;
+    margin-bottom: 1rem;
+}
+
+#biografie h3 {
+    font-size: 2rem;
+    color: salmon;
+    margin-top: 2rem;
+}
+
+#biografie p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+
+#biografie .container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+#biografie h3 {
+    border-bottom: 2px solid salmon;
+    padding-bottom: 0.5rem;
+}
+
+
+
+.image-container img {
+    border: 3px solid salmon;
+    margin: 1rem auto;
+    display: block;
+}
+
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: salmon;
+    color: black;
+}
+
+#main-footer {
+    background-color: purple;
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+#main-footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+/* Global styles */
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: purple;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+#navbar a {
+    color: salmon;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li {
+    margin: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(100, 151, 28);
+    border-radius: 5px;
+    color: black;
+}
+
+/* Header styles */
+header {
+    background-color: white;
+    color: purple;
+    padding: 1.5rem 0;
+    border-bottom: 3px solid purple;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Awards section styles */
+#awards {
+    background-color: #f9f9f9;
+    padding: 2rem 0;
+}
+
+#awards h2, #awards h3 {
+    color: purple;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#awards .list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+#awards .list li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#awards .list ul {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#awards .list ul li {
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#awards p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+/* Footer styles */
+#main-footer {
+    background-color: purple;
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+#main-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Button styles (if needed) */
+.btn {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: salmon;
+    color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    #awards h2, #awards h3 {
+        font-size: 1.8rem;
+    }
+
+    #awards p {
+        font-size: 1rem;
+    }
+}
+
